@@ -1,0 +1,11 @@
+This guide is made by Akari1982 on the bsnes Discord.
+
+1) Trace out the poly level wells
+2) Trace the poly interconnections
+3) Trace out the metal layer, making sure to include power and ground.
+4) Draw all the vias
+5) Draw all the gates at the well / interconnect boundary
+6) Use power and ground from step 3 to determine N-MOS vs P-MOS
+7) Simplify connections by using numbers
+8) Only the necessary
+9) Make truth table / determine functionality
