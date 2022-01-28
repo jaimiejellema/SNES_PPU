@@ -1,0 +1,9 @@
+ormally numbers preceding the function are the amount of inputs, and numbers after the function are used if the cell has multiple output transistors
+
+DFFS: Data flip flop, created by two muxes in serie which each connect output to input.
+DFF-CON: Generate inverted CLK needed for DFFS
+DFFTR: Data Flip Flop with tri-state
+TR: Tristate
+SUM6: part of an adder?
+
+DFF_ALR: DFF with Active low reset, and outputs both inverted and non inverted outputs
