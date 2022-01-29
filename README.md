@@ -3,6 +3,7 @@ In this repository I will try to keep my progress in reversing the the Super Nin
 
 ## File organisation
 The resources folder contains partial work from others (see contributors)
+The gates folder contains the currently reversed engineered gates, and in some cases the derivation. Some gates also have a *.dig file, which is a file produced by the [Digital logic simulator](https://github.com/hneemann/Digital), I use this to describe behavior of gates without ambiguity.
 
 ## Progress
 - [ ] Reverse PPU 1
