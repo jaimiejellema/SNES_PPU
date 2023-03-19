@@ -70,6 +70,10 @@
           <string>rotation</string>
           <rotation rotation="2"/>
         </entry>
+        <entry>
+          <string>Label</string>
+          <string>CLK</string>
+        </entry>
       </elementAttributes>
       <pos x="1240" y="240"/>
     </visualElement>
@@ -80,12 +84,21 @@
           <string>rotation</string>
           <rotation rotation="2"/>
         </entry>
+        <entry>
+          <string>Label</string>
+          <string>DATA</string>
+        </entry>
       </elementAttributes>
       <pos x="1240" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>OUT</string>
+        </entry>
+      </elementAttributes>
       <pos x="1240" y="420"/>
     </visualElement>
     <visualElement>
@@ -93,20 +106,20 @@
       <elementAttributes>
         <entry>
           <string>Description</string>
-          <string>Data (input bottom)</string>
+          <string>(input bottom)</string>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="40"/>
+      <pos x="1300" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
           <string>Description</string>
-          <string>Clock (Input top)</string>
+          <string>(Input top)</string>
         </entry>
       </elementAttributes>
-      <pos x="1300" y="240"/>
+      <pos x="1360" y="200"/>
     </visualElement>
   </visualElements>
   <wires>

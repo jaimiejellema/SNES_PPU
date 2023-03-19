@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
-  <version>1</version>
-  <attributes/>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>5</int>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>NAnd</elementName>
@@ -55,17 +66,42 @@
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="880" y="280"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>OUT</string>
+        </entry>
+      </elementAttributes>
       <pos x="880" y="160"/>
     </visualElement>
     <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>OUT_INV</string>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="280"/>
+    </visualElement>
+    <visualElement>
       <elementName>In</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>ALR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="200" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>D</string>
+        </entry>
+      </elementAttributes>
       <pos x="180" y="300"/>
     </visualElement>
     <visualElement>
@@ -73,55 +109,10 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Reset (top) active low</string>
+          <string>CLK</string>
         </entry>
       </elementAttributes>
-      <pos x="200" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes/>
       <pos x="360" y="620"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>Clock (B)</string>
-        </entry>
-      </elementAttributes>
-      <pos x="380" y="640"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>Data (b)</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="240"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>Out (2)</string>
-        </entry>
-      </elementAttributes>
-      <pos x="800" y="120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>Inverted output 3</string>
-        </entry>
-      </elementAttributes>
-      <pos x="800" y="200"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -240,10 +231,6 @@
     <wire>
       <p1 x="400" y="160"/>
       <p2 x="400" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="880" y="160"/>
-      <p2 x="880" y="180"/>
     </wire>
     <wire>
       <p1 x="320" y="340"/>

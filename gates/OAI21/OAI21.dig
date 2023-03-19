@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
-  <version>1</version>
+  <version>2</version>
   <attributes/>
   <visualElements>
     <visualElement>
@@ -30,53 +30,43 @@
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>OUT</string>
+        </entry>
+      </elementAttributes>
       <pos x="560" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+      </elementAttributes>
       <pos x="220" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
+        </entry>
+      </elementAttributes>
       <pos x="220" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
-      <elementAttributes/>
-      <pos x="220" y="260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
       <elementAttributes>
         <entry>
-          <string>Description</string>
-          <string>A</string>
-        </entry>
-      </elementAttributes>
-      <pos x="160" y="160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
-          <string>B</string>
-        </entry>
-      </elementAttributes>
-      <pos x="160" y="200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Description</string>
+          <string>Label</string>
           <string>C</string>
         </entry>
       </elementAttributes>
-      <pos x="160" y="240"/>
+      <pos x="220" y="260"/>
     </visualElement>
   </visualElements>
   <wires>

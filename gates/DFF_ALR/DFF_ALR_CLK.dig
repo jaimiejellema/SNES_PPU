@@ -54,6 +54,10 @@
           <string>rotation</string>
           <rotation rotation="3"/>
         </entry>
+        <entry>
+          <string>Label</string>
+          <string>OUT</string>
+        </entry>
       </elementAttributes>
       <pos x="540" y="680"/>
     </visualElement>
@@ -64,6 +68,10 @@
           <string>rotation</string>
           <rotation rotation="2"/>
         </entry>
+        <entry>
+          <string>Label</string>
+          <string>ALR</string>
+        </entry>
       </elementAttributes>
       <pos x="780" y="560"/>
     </visualElement>
@@ -73,6 +81,10 @@
         <entry>
           <string>rotation</string>
           <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>IN</string>
         </entry>
       </elementAttributes>
       <pos x="800" y="320"/>
@@ -93,6 +105,10 @@
         <entry>
           <string>rotation</string>
           <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>CLK</string>
         </entry>
       </elementAttributes>
       <pos x="840" y="400"/>
